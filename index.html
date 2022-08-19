@@ -2,9 +2,43 @@
   <head>
     <title></title>
     
+
+    <style>
+        body {
+            display: block;
+        }
+        div.gallery {
+          margin: 5px;
+          border: 1px solid #ccc;
+          float: left;
+          width: 180px;
+          padding: 20px;
+          display: flex;
+        }
+        
+        div.gallery:hover {
+          border: 1px solid #777;
+        }
+        
+        div.gallery img {
+          width: 100%;
+          height: auto;
+        }
+        
+        div.desc {
+          padding: 15px;
+          text-align: center;
+        }
+        </style>
+
   </head>
+
   <body>
+    <div>
     <h1>Welcome</h1>
+
+  </div>
+
     <div>
       <a href="./index.html">Home</a>
       <a href="./help.html">Help</a>
@@ -13,6 +47,42 @@
       <a href="./about.html">About</a>
       <a href="./hello.py">About</a>
     </div>
-     <h2>This is the Home page</h2>
+
+    
+    <h2>This is the Home page</h2>
+    
+    
+    
+    <div class="gallery">
+        <a target="_blank" href="#">
+          <img src="https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492__340.jpg" alt="Cinque Terre" width="600" height="400">
+        </a>
+       
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="#">
+          <img src="https://cdn.pixabay.com/photo/2015/11/16/14/43/cat-1045782__340.jpg" alt="Forest" width="600" height="400">
+        </a>
+        
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="#">
+          <img src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554__340.jpg" alt="Northern Lights" width="600" height="400">
+        </a>
+        
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="#">
+          <img src="https://cdn.pixabay.com/photo/2016/07/10/21/47/cat-1508613__340.jpg" alt="Mountains" width="600" height="400">
+        </a>
+        
+      </div>
+
+      <div>
+     
+    </div>
   </body>
 </html>
